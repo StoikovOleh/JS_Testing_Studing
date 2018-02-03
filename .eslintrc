@@ -4,14 +4,6 @@
       "arrow-parens": ["error", "as-needed"],
       "no-invalid-this": 0,
       "operator-linebreak": [2, "before"],
-      "react/display-name": 0,
-      "react/jsx-closing-bracket-location": [2, "tag-aligned"],
-      "react/jsx-filename-extension": [
-        1,
-        {
-          "extensions": [".js"]
-        }
-      ]
     },
   
     "globals": {
