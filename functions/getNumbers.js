@@ -2,7 +2,7 @@ const getNumbersArray = () => {
   return [1, 3, 2];
 };
 
-export default function (fetchNumbers) {
+export default (fetchNumbers) => {
   const getNumbers = fetchNumbers || getNumbersArray;
   const numbers = getNumbers();
 

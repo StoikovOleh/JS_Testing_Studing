@@ -10,10 +10,10 @@ describe('getNumbers', () => {
     }, /it\'s not array/);
   });
 
-  it('should return array with 4 values', () => {
+  it('should return array with 3 values', () => {
     const numbers = getNumbers();
 
     assert(Array.isArray(numbers), 'returned not array');
-    assert.equal(numbers.length, 4, `array returned ${numbers.length} instead of the 4 values`);
+    assert.equal(numbers.length, 3, `array returned ${numbers.length} instead of the 3 values`);
   });
 });
